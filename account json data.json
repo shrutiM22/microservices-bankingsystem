@@ -1,0 +1,60 @@
+http://localhost:8082/accounts/withdraw/0b1996fd-3737-445a-a77b-500cbfa45fe6?amount=90&customerId=3
+
+add account
+{ 
+    "accountType" : "Savings",
+    "balance" : 7777888,
+    "customerId" : "2"
+}
+
+
+[
+    {
+        "accountId": "0b1996fd-3737-445a-a77b-500cbfa45fe6",
+        "accountType": "Savings",
+        "accountOpeningDate": "2024-01-15T17:24:34.006+00:00",
+        "lastActivity": "2024-01-15T17:24:34.006+00:00",
+        "balance": 6660000,
+        "customerId": "3",
+        "customer": {
+            "customerId": "3",
+            "customerName": "Abel",
+            "customerPhone": "555577773",
+            "customerEmail": "abel@lights.com",
+            "customerPermanentAddress": "Canada",
+            "customerIdentityDocument": "Adhar card"
+        }
+    },
+    {
+        "accountId": "4541a47e-fdf8-4288-bfcd-08b6f466b280",
+        "accountType": "Savings",
+        "accountOpeningDate": "2024-01-15T17:22:08.600+00:00",
+        "lastActivity": "2024-01-15T17:22:08.600+00:00",
+        "balance": 988000,
+        "customerId": "1",
+        "customer": {
+            "customerId": "1",
+            "customerName": "Chris",
+            "customerPhone": "8888999998",
+            "customerEmail": "chris@aveng.com",
+            "customerPermanentAddress": "Seattle",
+            "customerIdentityDocument": "Pan card"
+        }
+    },
+    {
+        "accountId": "c6659d57-9ce7-41f0-93e5-b6b721a500c5",
+        "accountType": "Savings",
+        "accountOpeningDate": "2024-01-15T17:24:17.699+00:00",
+        "lastActivity": "2024-01-15T17:24:17.699+00:00",
+        "balance": 787377000,
+        "customerId": "2",
+        "customer": {
+            "customerId": "2",
+            "customerName": "Taylor Swift",
+            "customerPhone": "777888880",
+            "customerEmail": "taylorswift@eras.com",
+            "customerPermanentAddress": "Paris",
+            "customerIdentityDocument": "Adhar card"
+        }
+    }
+]

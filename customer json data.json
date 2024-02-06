@@ -1,0 +1,32 @@
+http://localhost:8081/customers
+
+{
+    "data": [
+        {
+            "customerId": "1",
+            "customerName": "Chris",
+            "customerPhone": "8888999998",
+            "customerEmail": "chris@aveng.com",
+            "customerPermanentAddress": "Seattle",
+            "customerIdentityDocument": "Pan card"
+        },
+        {
+            "customerId": "2",
+            "customerName": "Taylor Swift",
+            "customerPhone": "777888880",
+            "customerEmail": "taylorswift@eras.com",
+            "customerPermanentAddress": "Paris",
+            "customerIdentityDocument": "Adhar card"
+        },
+        {
+            "customerId": "3",
+            "customerName": "Abel tesfaye",
+            "customerPhone": "555577773",
+            "customerEmail": "abel@lights.com",
+            "customerPermanentAddress": "Canada",
+            "customerIdentityDocument": "Adhar card"
+        }
+    ],
+    "message": "Successfully retrieved data!",
+    "status": 200
+}
